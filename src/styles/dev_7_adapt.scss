@@ -1,0 +1,463 @@
+@media screen and (max-width: 1850px){
+  .special {
+    .arrow-left {
+      left: -390px;
+      width: 390px;
+    }
+    .arrow-right {
+      right: -390px;
+      width: 390px;
+    }
+  }
+}
+
+@media screen and (max-width: 1670px){
+  .special {
+    .arrow-left {
+      left: -275px;
+      width: 275px;
+    }
+    .arrow-right {
+      right: -275px;
+      width: 275px;
+    }
+  }
+}
+@media screen and (max-width: 1420px){
+  .special {
+    .arrow-left {
+      left: -235px;
+      width: 235px;
+    }
+    .arrow-right {
+      right: -235px;
+      width: 235px;
+    }
+  }
+}
+@media screen and (max-width: 1340px){
+  .special {
+    .arrow-left {
+      left: -195px;
+      width: 195px;
+    }
+    .arrow-right {
+      right: -195px;
+      width: 195px;
+    }
+  }
+}
+@media screen and (max-width: 1250px){
+  .special {
+    .arrow-left {
+      left: -75px;
+      width: 75px;
+    }
+    .arrow-right {
+      right: -75px;
+      width: 75px;
+    }
+  }
+}
+@media screen and (max-width: 1151px){
+  .book-place {
+    .book-inner {
+      &:before, &:after {
+        display: none;
+      }
+    }
+  }
+}
+@media screen and (max-width: 1080px){
+  .fancybox-wrap {
+    top: 45px!important;
+  }
+
+  .fancybox-close {
+    top: -38px;
+    right: 0;
+    left: 0;
+    margin: auto;
+    width: 31px;
+    height: 31px;
+    &:after, &:before {
+      top: 15px;
+      width: 41px;
+    }
+  }
+
+  .call-success {
+    max-width: 310x;
+    .call-success-wrap {
+      flex-direction: column;
+      align-items: center;
+      .call-success-left {
+        margin-bottom: 25px;
+        padding: 15px 0 0 0;
+        padding-top: 0;
+        text-align: center;
+        .call-success-subtitle {
+          font-size: 19px;
+        }
+      }
+      .call-success-right {
+        padding: 15px;
+        margin-left: 0;
+        width: 100%;
+      }
+    }
+  }
+}
+@media screen and (max-width: 1066px){
+  .book-place {
+    .book-inner {
+      border: none;
+    }
+  }
+}
+@media screen and (max-width: 1003px){
+  .personnel {
+    .person-inner {
+      flex-direction: column;
+      align-items: center;
+      .person-item {
+        margin-right: 0;
+        &:first-child {
+          margin-bottom: 8px;
+        }
+      }
+    }
+  }
+
+  .special {
+    .arrow-left, .arrow-right {
+      display: none;
+    }
+  }
+}
+@media screen and (max-width: 968px){
+  .salary {
+    .salary-inner {
+      flex-direction: column;
+      align-items: center;
+      .salary-item {
+        margin: 0 0 15px 0;
+        &:last-child {
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 905px){
+  .salary {
+    .salary-title {
+      h1,h2,h3 {
+        span {
+          font-size: 35px!important;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 863px){
+  .special {
+    .special-title {
+      max-width: 545px;
+      h1,h2,h3 {
+        span {
+          font-size: 30px!important;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 754px){
+  .book-place {
+    .book-inner {
+      .book-title {
+        max-width: 345px;
+        margin: 0 auto 61px auto;
+      }
+    }
+  }
+}
+@media screen and (max-width: 717px){
+  .special {
+    .special-subtitle {
+      max-width: 360px;
+      margin: 0 auto 23px auto;
+    }
+  }
+}
+@media screen and (max-width: 638px){
+  .join-popup {
+    .popup-title {
+      h1,h2,h3 {
+        font-size: 22px;
+      }
+    }
+    .popup-subtitle {
+      font-size: 16px;
+    }
+  }
+}
+@media screen and (max-width: 589px){
+  .join-popup {
+    padding-bottom: 33px;
+    .join-form {
+      .el-button {
+        max-width: 420px;
+        width: 100%;
+      }
+    }
+  }
+}
+@media screen and (max-width: 512px){
+  .book-place {
+    padding: 20px 0 27px 0;
+    .book-inner {
+      padding: 23px 5px 30px 5px;
+      .book-title {
+        max-width: 310px;
+        margin: 0 auto 11px auto;
+        h1,h2,h3 {
+          font-size: 18px;
+          line-height: 24px;
+        }
+      }
+      .book-content {
+        max-width: 255px;
+        margin: 0 auto 20px auto;
+        font-size: 16px;
+        line-height: 22px;
+      }
+      .el-button {
+        font-size: 22px;
+      }
+    }
+  }
+
+  .personnel {
+    padding: 21px 0;
+    .person-inner {
+      .person-item {
+        padding: 12px 17px 26px 17px;
+        &:last-child {
+          ul {
+            li:after {
+              top: 1px;
+              left: 4px;
+              width: 3px;
+              height: 11px;
+            }
+          }
+        }
+        &:before {
+          height: 98%;
+        }
+        .person-title {
+          max-width: 230px;
+          margin-bottom: 12px;
+          h1,h2,h3 {
+            font-size: 16px;
+            line-height: 24px;
+            span {
+              font-size: 26px!important;
+            }
+          }
+        }
+      }
+      ul {
+        li {
+          padding-left: 16px;
+          margin-bottom: 11px;
+          font-size: 15px;
+          line-height: 15px;
+          &:before {
+            top: 5px;
+            width: 11px;
+            height: 3px;
+          }
+        }
+      }
+    }
+  }
+
+  .special {
+    padding: 25px 0 34px 0;
+    .special-subtitle {
+      max-width: 275px;
+      margin: 0 auto 5px auto;
+      font-size: 23px;
+      line-height: 22px;
+    }
+    .special-title {
+      margin-bottom: 14px;
+      h1,h2,h3 {
+        font-size: 17px;
+        line-height: 33px;
+        span {
+          font-size: 26px!important;
+          &:nth-child(2) {
+            display: inline-block;
+            max-width: 265px;
+            margin: 0 auto;
+          }
+          &:last-child {
+            font-size: 50px!important;
+          }
+        }
+      }
+    }
+    .special-content {
+      font-size: 15px;
+      line-height: 17px;
+      p,span {
+        margin-bottom: 17px;
+      }
+    }
+  }
+
+  .team {
+    display: none;
+  }
+
+  .salary {
+    padding-top: 21px;
+    .salary-title {
+      max-width: 250px;
+      margin-bottom: 17px;
+      h1,h2,h3 {
+        font-size: 25px;
+        line-height: 30px;
+        span {
+          font-size: 25px!important;
+        }
+      }
+    }
+    .salary-inner {
+      .salary-item {
+        .salary-top {
+          min-height: 75px;
+        }
+        .salary-list {
+          li {
+            &:first-child {
+              display: none;
+            }
+            &:nth-child(2) {
+              display: block;
+            }
+            &:nth-child(3) {
+              display: none;
+            }
+            &.close {
+              display: none;
+            }
+          }
+        }
+        .salary-bottom {
+          padding: 1px 5px 15px 5px;
+          .salary-income {
+            margin-bottom: 5px;
+          }
+          .salary-subtext {
+            padding: 0 13px;
+            line-height: 17px;
+          }
+        }
+      }
+    }
+  }
+
+  .join-popup {
+    padding: 18px 10px 20px 10px;
+    .popup-title {
+      margin-bottom: 17px;
+      h1,h2,h3 {
+        font-size: 17px;
+        line-height: 19px;
+      }
+    }
+    .popup-subtitle {
+      margin-bottom: 15px;
+      font-size: 13px;
+      line-height: 16px;
+    }
+    .join-form {
+      .form-inner {
+        margin-bottom: 20px;
+        .form-field {
+          margin-bottom: 5px;
+          // &.tel-field {
+          //   &:before {
+          //     left: 3px;
+          //     bottom: 12px;
+          //   }
+          //   input {
+          //     padding-left: 13px;
+          //   }
+          // }
+          label {
+            font-size: 16px;
+            line-height: 22px;
+          }
+          input {
+            padding-left: 10px;
+            height: 40px;
+          }
+        }
+      }
+    }
+  }
+
+  .footer {
+    .footer-inner {
+      flex-wrap: wrap;
+      justify-content: space-around;
+      .footer-left {
+        margin-bottom: 10px;
+        width: 100%;
+      }
+      .footer-center {
+        align-self: center;
+      }
+    }
+  }
+}
+@media screen and (max-width: 479px){
+  .book-place {
+    .book-inner {
+      .el-button {
+        width: auto;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 429px){
+  .call-success {
+    .call-success-wrap {
+      .call-success-left {
+        .call-success-subtitle {
+          font-size: 14px;
+          line-height: 20px;
+          span {
+            font-size: 24px!important;
+          }
+        }
+      }
+      .call-success-right {
+        height: 187px;
+        width: 100%;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 335px){
+  .salary {
+    padding-bottom: 0;
+  }
+}

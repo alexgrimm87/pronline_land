@@ -1,0 +1,101 @@
+<div class="hidden-block">
+
+    <div id="call_success" class="call-success">
+      <div class="call-success-wrap">
+        <div class="call-success-left center">
+           <div class="call-success-title">Спасибо!</div>
+           <div class="call-success-subtitle">
+             <span style="font-size:35px;">Ваша заявка принята</span>,
+             <br>мы свяжемся с вами в ближайшее время.
+           </div>
+        </div>
+      </div>
+    </div>
+
+<!--     <div id="call_success" class="call-success">
+      <div class="call-success-wrap">
+        <div class="call-success-left">
+           <div class="call-success-title">Спасибо!</div>
+           <div class="call-success-subtitle">
+             <span style="font-size:35px;">Ваша заявка принята</span>,
+             <br>мы свяжемся с вами в ближайшее время.
+           </div>
+        </div>
+        <div class="call-success-right">
+          <iframe width="475" height="315" src="https://www.youtube.com/embed/EqgMB9bSLWw?&showinfo=0" frameborder="0" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div> -->
+
+    <div id="call-popup">
+        <form action="ajax.php" class="contact-form">
+            <div class="contact-form-title">
+                <!-- Title -->
+            </div>
+            <div class="contact-form-row cfix">
+                <div class="contact-form-item">
+                    <div class="contact-form-item-input form_row">
+                        <div class="form_input">
+                            <input type="text" name="contact_name" required="required" value="" placeholder="Ваше Имя">
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form-item">
+                    <div class="contact-form-item-input form_row">
+                        <div class="form_input">
+                            <input type="text" name="contact_tel" value="" required="required" placeholder="Ваш номер" class="tel-mask">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-form-row cfix">
+                <div class="contact-form-item">
+                    <button type="submit" class="contact-submit">
+                        <span><!-- Отправить заявку  --></span>
+                    </button>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <div id="join-popup" class="join-popup">
+      <div class="popup-title">
+        <h2>Заполнение формы подтверждает Ваше желание узнать больше или присоединиться к проекту.</h2>
+      </div>
+      <div class="popup-subtitle">
+        <p>Наши менеджеры свяжутся с Вами, чтобы ответить на вопросы и обсудить детали сотрудничества. Каждому присоединившемуся партнеру создаются личный кабинет на продающем сайте и обучающем портале нашего проекта.</p>
+      </div>
+      <form action="ajax-programer.php" class="join-form" name="join-form">
+        <div class="form-inner">
+          <div class="form-field">
+            <label for="name">Ваше имя<span style="color:red;">*</span></label>
+            <input type="text" id="name" name="name" placeholder="Как к Вам обращаться" required />
+          </div>
+          <div class="form-field">
+            <label for="tel">Телефон с кодом<span style="color:red;">*</span></label>
+            <input type="tel" id="tel" class="tel" name="tel" placeholder="В международном формате" required />
+          </div>
+          <div class="form-field">
+            <label for="messenger">Ваш мессенджер</label>
+            <input type="text" id="messenger" name="messenger" placeholder="Тelegram, Viber, WhatsApp" />
+          </div>
+          <div class="form-field">
+            <label for="email">E-mail</label>
+            <input type="email" id="email" name="email" placeholder="Если не пользуетесь мессенджарами" />
+          </div>
+          <div class="form-field">
+            <label for="coment">Комментарий</label>
+            <input type="text" id="coment" name="coment" placeholder="Ваше пажелание или вопрос" />
+          </div>
+          <div class="check-field">
+            <input type="checkbox" id="checkbox" name="checkbox" required />
+            <label for="checkbox">я выражаю согласие на обработку указанных мной персональных данных</label>
+          </div>
+        </div>
+        <button type="submit" class="el-button">
+          <span>Отправить</span>
+        </button>
+      </form>
+    </div>
+
+</div>
